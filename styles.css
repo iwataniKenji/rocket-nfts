@@ -16,12 +16,11 @@
 body {
   color: #fff;
   margin: 0;
+  max-width: 1439px;
 }
 
 .main-background {
   background-image: url(/assets/background.png);
-  max-width: 1439px;
-  height: 1000px;
   padding: 0 40px;
 }
 
@@ -149,15 +148,19 @@ GALLERY SECTION
 
 .gallery-image {
   border: 1px solid #fff;
-  width: 98%;
+  width: 297px;
+  transition: 0.3s all;
+}
+
+.gallery-image:hover {
+  transform: scale(1.05);
 }
 
 /****************
 SECONDARY SECTION
 ****************/
 
-.secondary-background {
-  height: 660px;
+.second-background {
   background: #000;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -173,6 +176,13 @@ SECONDARY SECTION
   align-items: center;
   justify-content: space-between;
   border-right: 1px solid #252525;
+}
+
+.lateral-column-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
 }
 
 .lateral-column-num {
@@ -214,6 +224,12 @@ SECONDARY SECTION
 .banner {
   grid-row: 2;
   grid-column: 2 / 6;
+  overflow: hidden;
+  display: flex;
+}
+
+.banner img {
+  display: inline-block;
 }
 
 /****************
@@ -223,6 +239,13 @@ POPULARES DA SEMANA
 .third-background {
   background: #000;
   padding: 0 35px;
+}
+
+.populares-da-semana h2 {
+  padding: 150px;
+  margin: 0 auto;
+  font-size: 50px;
+  font-weight: 700;
 }
 
 /****************
@@ -274,4 +297,9 @@ HELPER
 
 .colored-text {
   color: #ff5b50;
+}
+
+.colored-underline {
+  color: #ff5b50;
+  text-decoration: underline;
 }
