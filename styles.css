@@ -25,6 +25,14 @@ body {
 }
 
 /****************
+FREQUENT
+****************/
+
+.arrow {
+  cursor: pointer;
+}
+
+/****************
 NAVIGATION SECTION
 ****************/
 
@@ -183,6 +191,7 @@ SECONDARY SECTION
   align-items: center;
   flex-direction: column;
   margin-top: 60px;
+  text-align: center;
 }
 
 .lateral-column-num {
@@ -242,10 +251,69 @@ POPULARES DA SEMANA
 }
 
 .populares-da-semana h2 {
-  padding: 150px;
-  margin: 0 auto;
+  padding: 160px 0;
+  margin: 0;
   font-size: 50px;
   font-weight: 700;
+}
+
+.populares-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  gap: 60px;
+  margin: 0 30px 0 20px;
+  position: relative;
+}
+
+.populares-grid::after {
+  content: "";
+  position: absolute;
+  border-right: 1px solid #252525;
+  height: 720px;
+  top: 4%;
+  right: 50%;
+}
+
+.astronaut-container {
+  width: 350px;
+  height: 335px;
+  transition: 0.3s all;
+}
+
+.astronaut-container:hover {
+  transform: scale(1.05);
+}
+
+.astronaut-first-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.astronaut-first-line h3 {
+  font-size: 30px;
+  margin-bottom: 32px;
+}
+
+.astronaut-second-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.astronaut-second-line h3 {
+  font-size: 20px;
+  color: #5a5757;
+  margin: 0px 0px 26px;
+}
+
+.astronaut-second-line p {
+  font-size: 20px;
+  color: #ff5b50;
+  margin: 0px 0px 26px;
+}
+
+.astronaut-end {
+  justify-self: end;
 }
 
 /****************
@@ -256,7 +324,7 @@ MELHORES ARTISTAS
   font-size: 50px;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 100px;
+  margin: 180px 0 100px;
 }
 
 .artists-grid {
