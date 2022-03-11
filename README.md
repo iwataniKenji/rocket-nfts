@@ -15,7 +15,7 @@
 
 <H2 id="about">📙 About</H2>
 
-<p>Landing page challenge from Rocketseat "Discover" module. Project used to practice html and css concepts</p>
+<p>Landing page challenge from Rocketseat. Project used to practice html and css concepts</p>
 <p>Developed by <a href="https://www.rocketseat.com.br/" target="_blank">Rocketseat</a> Made by <a href="https://www.linkedin.com/in/kleverson-kenji-iwatani/" target="_blank">Kenji Iwatani</a></p>
 
 <p>
