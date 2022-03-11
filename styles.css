@@ -87,7 +87,8 @@ NAVIGATION SECTION
   cursor: pointer;
 }
 
-.navigation-btn:hover {
+.navigation-btn:hover,
+.navigation-btn:active {
   background: #ff5b50;
 }
 
@@ -380,12 +381,15 @@ MELHORES ARTISTAS
 }
 
 .ver-todos-os-artistas a {
+  color: #fff;
+  text-decoration: none;
   font-weight: 400;
   cursor: pointer;
   transition: 0.3s all;
 }
 
-.ver-todos-os-artistas a:hover {
+.ver-todos-os-artistas a:hover,
+.ver-todos-os-artistas a:active {
   color: #ff5b50;
 }
 
@@ -421,7 +425,8 @@ FOOTER FIRST PART
   transition: all 0.3s;
 }
 
-.home-button:hover {
+.home-button:hover,
+.home-button:active {
   background: #c4463d;
 }
 
@@ -474,7 +479,8 @@ input:last-child {
   transition: all 0.3s;
 }
 
-input:last-child:hover {
+input:last-child:hover,
+input:last-child:active {
   background: #ff5b50;
 }
 
@@ -501,7 +507,8 @@ input:last-child:hover {
   font-weight: 400;
 }
 
-.footer-column a:hover {
+.footer-column a:hover,
+.footer-column a:active {
   color: #ff5b50;
 }
 
@@ -510,7 +517,8 @@ input:last-child:hover {
   font-weight: 500;
 }
 
-.footer-column a:first-child:hover {
+.footer-column a:first-child:hover,
+.footer-column a:first-child:active {
   color: #ff5b50;
 }
 
@@ -531,12 +539,13 @@ FOOTER LAST LINE
 }
 
 .footer-last-line div a {
-  color: #5A5757;
+  color: #5a5757;
   text-decoration: none;
   transition: 0.3s all;
 }
 
-.footer-last-line div a:hover {
+.footer-last-line div a:hover,
+.footer-last-line div a:active {
   color: #ff5b50;
 }
 
@@ -548,10 +557,6 @@ FOOTER LAST LINE
 .social-media {
   color: #252525;
   width: 30px;
-}
-
-.social-media:hover {
-  fill: #ff5b50;
 }
 
 /****************
