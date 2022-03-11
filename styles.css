@@ -13,6 +13,10 @@
   font-weight: 500;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: #fff;
   margin: 0;
@@ -81,7 +85,6 @@ NAVIGATION SECTION
   padding: 6px 12px;
 
   text-align: center;
-
   border: none;
   transition: 0.3s all;
   cursor: pointer;
@@ -168,7 +171,7 @@ GALLERY SECTION
 
 .gallery-image {
   border: 1px solid #fff;
-  width: 297px;
+  max-width: 297px;
   transition: 0.3s all;
 }
 
