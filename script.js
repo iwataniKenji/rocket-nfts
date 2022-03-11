@@ -1,5 +1,7 @@
 const homeButtons = document.querySelectorAll(".home");
 
+
+// SMOOTH SCROLLING
 homeButtons.forEach(function (button) {
   button.addEventListener("click", function (event) {
     event.preventDefault();
