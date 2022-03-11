@@ -77,14 +77,19 @@ NAVIGATION SECTION
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 4px 12px;
+  padding: 6px 12px;
 
   font-size: 16px;
   font-weight: 700;
   text-align: center;
 
+  border: none;
   transition: 0.3s all;
   cursor: pointer;
+}
+
+.navigation-btn:hover {
+  background: #ff5b50;
 }
 
 .metamask-icon {
@@ -338,6 +343,17 @@ MELHORES ARTISTAS
   gap: 30px;
   padding: 20px;
   background: #252525;
+  cursor: pointer;
+}
+
+.artist-container:hover {
+  transition: 0.3s all;
+  background: #ff5b50;
+}
+
+.artist-container:hover span {
+  transition: 0.3s all;
+  color: #fff;
 }
 
 .artist-image {
@@ -348,15 +364,20 @@ MELHORES ARTISTAS
   font-size: 20px;
 }
 
-.container-color {
-  background: #ff5b50;
-}
-
 .ver-todos-os-artistas {
   padding: 60px 0 90px 0;
   text-align: center;
   font-size: 20px;
   font-weight: 500;
+}
+
+.ver-todos-os-artistas a {
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+.ver-todos-os-artistas a:hover {
+  color: #ff5b50;
 }
 
 /****************
