@@ -16,7 +16,7 @@
 <H2 id="about">📙 About</H2>
 
 <p>Landing page challenge from Rocketseat. Project used to practice html and css concepts</p>
-<p>Developed by <a href="https://www.rocketseat.com.br/" target="_blank">Rocketseat</a> Made by <a href="https://www.linkedin.com/in/kleverson-kenji-iwatani/" target="_blank">Kenji Iwatani</a></p>
+<p>Developed by <a href="https://www.rocketseat.com.br/" target="_blank">Rocketseat</a> and made by <a href="https://www.linkedin.com/in/kleverson-kenji-iwatani/" target="_blank">Kenji Iwatani</a></p>
 
 <p>
     <h3><a href="https://rocket-nfts-kenji.netlify.app/" target="_blank">Check website &rarr;</a></h3>
