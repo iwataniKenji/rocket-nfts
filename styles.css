@@ -16,17 +16,18 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   color: #fff;
   margin: 0;
   max-width: 143.2rem;
+  overflow-x: hidden;
 }
 
 .main-background {
   background-image: url(/assets/background.png);
-  padding: 0 4.5rem;
 }
 
 /****************
@@ -45,7 +46,8 @@ NAVIGATION SECTION
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 1.6rem;
+  padding: 1.6rem 4.5rem;
+  position: relative;
 }
 
 .navigation-logo p {
@@ -60,6 +62,7 @@ NAVIGATION SECTION
 
 .navigation-links {
   display: flex;
+  align-items: center;
   list-style: none;
   text-decoration: none;
   gap: 6rem;
@@ -77,6 +80,10 @@ NAVIGATION SECTION
 .navigation-link:hover,
 .navigation-link:active {
   color: #ff5b50;
+}
+
+.mobile-fox {
+  display: none;
 }
 
 .navigation-btn {
@@ -107,6 +114,28 @@ NAVIGATION SECTION
 }
 
 /****************
+MOBILE NAV SECTION
+****************/
+
+.mobile-nav-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.mobile-nav-icon {
+  height: 4.6rem;
+  width: 4.6rem;
+  color: #fff;
+}
+
+.mobile-nav-icon[name="close-outline"] {
+  display: none;
+}
+
+/****************
 MAIN SECTION
 ****************/
 
@@ -115,6 +144,8 @@ MAIN SECTION
   grid-template-columns: 2fr 3fr 1fr;
   align-items: center;
   gap: 4rem;
+  padding: 0 4.5rem;
+
   margin: -1.2rem 0 5rem;
 }
 
@@ -170,6 +201,7 @@ GALLERY SECTION
   grid-template-rows: repeat(2, 1fr);
   column-gap: 1.6rem;
   row-gap: 6rem;
+  padding: 0 4.5rem;
 }
 
 .gallery-image {
@@ -310,6 +342,7 @@ POPULAR THIS WEEK SECTION
 
 .astronaut-first-line {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 

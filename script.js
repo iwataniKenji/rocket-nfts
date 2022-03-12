@@ -12,3 +12,11 @@ homeButtons.forEach(function (button) {
     });
   });
 });
+
+// MOBILE NAVIGATION
+const btnElement = document.querySelector('.mobile-nav-button');
+const headerElement = document.querySelector('.navigation');
+
+btnElement.addEventListener('click', function () {
+  headerElement.classList.toggle('nav-open')
+})

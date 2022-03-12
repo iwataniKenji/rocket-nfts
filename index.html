@@ -18,9 +18,18 @@
       rel="stylesheet"
     />
 
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="queries.css" />
-    
+
     <script defer src="script.js"></script>
 
     <title>Rocket NFTs &mdash; Discover the real digital art</title>
@@ -33,15 +42,20 @@
             ><p>Rocket <span class="colored-text bold">NFTs</span></p></a
           >
         </div>
-        <div>
+        <div class="navigation-container">
           <ul class="navigation-links">
             <li><a class="navigation-link" href="#">Buy NFT</a></li>
             <li><a class="navigation-link" href="#">About</a></li>
             <li><a class="navigation-link" href="#">FAQ</a></li>
+            <div class="mobile-fox">
+              <button class="navigation-btn mobile-fox-btn">
+                <span>Connect Wallet</span>
+              </button>
+            </div>
           </ul>
         </div>
         <div>
-          <button class="navigation-btn">
+          <button class="navigation-btn normal-fox">
             <img
               class="metamask-icon"
               alt="Fox logo"
@@ -49,6 +63,10 @@
             />
             <span>Connect Wallet</span>
           </button>
+        </div>
+        <div class="mobile-nav-button">
+          <ion-icon class="mobile-nav-icon" name="menu-outline"></ion-icon>
+          <ion-icon class="mobile-nav-icon" name="close-outline"></ion-icon>
         </div>
       </header>
       <section class="main">
@@ -75,7 +93,7 @@
           </h1>
         </div>
         <div class="badge">
-          <img 
+          <img
             alt="Badge with message written on border"
             src="/assets/badge.svg"
           />
