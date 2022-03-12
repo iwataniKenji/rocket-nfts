@@ -4,7 +4,7 @@
 
 <p align="center">
     <a href="#about">📙 About</a>
-    <a href="#preview">🖼️ Git Preview</a>
+    <a href="#preview">🖼️ Mobile Preview</a>
     <a href="#features">💡 Features</a>
     <a href="#technologies">💻 Technologies</a>
 </p>
@@ -15,7 +15,7 @@
 
 <H2 id="about">📙 About</H2>
 
-<p>Landing page challenge from Rocketseat. Project used to practice html and css concepts</p>
+<p>Landing page challenge from Rocketseat developed with some additions such as responsive layout, mobile navigation and smooth scrolling. Project used to practice html/css concepts and fully-responsive websites.</p>
 <p>Developed by <a href="https://www.rocketseat.com.br/" target="_blank">Rocketseat</a> and made by <a href="https://www.linkedin.com/in/kleverson-kenji-iwatani/" target="_blank">Kenji Iwatani</a></p>
 
 <p>
@@ -23,23 +23,25 @@
 </p>
 
 <section align="center">
-    <img alt="Landing Page overview" src="/assets/page-preview-1.png"/>
+    <img alt="Landing Page overview" src="/assets/page-preview-1.jpg"/>
 </section>
 
 ---
 
-<H2 id="preview">🖼️ Gif Preview</H2>
+<H2 id="preview">🖼️ Mobile Preview</H2>
 
 <section align="center">
-    <img alt="Landing Page overview" src="/assets/page-preview-2.gif"/>
+    <img alt="Landing Page overview" src="/assets/mobile-preview.gif"/>
 </section>
 
 ---
 
 <H2 id="features">💡 Features</H2>
 
-- [x] Complete structure implementation
+- [x]  Completely responsive design (laptops, tablets and phones)
+- [x] Mobile navigation
 - [x] Smooth scrolling
+- [x] Flexbox and grid usage
 
 ---
 

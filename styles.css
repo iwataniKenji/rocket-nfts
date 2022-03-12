@@ -145,7 +145,6 @@ MAIN SECTION
   align-items: center;
   gap: 4rem;
   padding: 0 4.5rem;
-
   margin: -1.2rem 0 5rem;
 }
 
@@ -297,7 +296,7 @@ SECONDARY SECTION
 }
 
 /****************
-POPULAR THIS WEEK SECTION
+POPULAR SECTION
 ****************/
 
 .third-background {
@@ -439,7 +438,7 @@ BEST ARTISTS SECTION
 }
 
 /****************
-FOOTER FIRST PART
+FOOTER FIRST LINE
 ****************/
 
 .footer-first {
@@ -476,7 +475,7 @@ FOOTER FIRST PART
 }
 
 /****************
-FOOTER SECOND PART
+FOOTER SECOND LINE
 ****************/
 
 .footer-second {
@@ -607,7 +606,7 @@ FOOTER LAST LINE
 }
 
 /****************
-HELPER
+HELPERS
 ****************/
 
 .colored-text {

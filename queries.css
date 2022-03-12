@@ -127,7 +127,7 @@
 
   .footer-last-line {
     padding: 6rem 0rem;
-
+  }
 }
 
 @media (max-width: 61em) {
@@ -572,7 +572,6 @@
     width: 65%;
   }
 
-  }
   .footer-map {
     gap: 6rem;
     padding: 4rem 0rem 4rem 0rem;
