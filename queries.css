@@ -119,6 +119,15 @@
     width: 6.5rem;
     height: 6.5rem;
   }
+
+  /* MARGIN */
+  .footer-first-line {
+    padding: 3.5rem 0;
+  }
+
+  .footer-last-line {
+    padding: 6rem 0rem;
+
 }
 
 @media (max-width: 61em) {
@@ -159,7 +168,7 @@
     font-size: 3.6rem;
   }
 
-  /* MOBILE NAVIGATION */
+  /* MOBILE NAV */
   .navigation-container {
     background: #353535ab;
     backdrop-filter: blur(10px);
@@ -250,7 +259,7 @@
   }
 
   .popular-grid {
-    gap: 3rem;
+    gap: 2rem;
   }
 
   .astronaut-container {
@@ -327,14 +336,20 @@
     grid-template-columns: 1fr;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
+    gap: 2rem;
+  }
+
+  .astronaut-container {
+    width: 65%;
+  }
+
+  .astronaut-first-line h3 {
+    margin: 2rem 0;
   }
 
   .astronaut-third-line img {
-    width: 80%;
+    width: 100%;
   }
-
-  /* BEST ARTISTS */
 
   /* FOOTER */
   .footer-second {
@@ -349,6 +364,7 @@
 
   .footer-newsletter-box {
     text-align: center;
+    padding-right: 0rem;
   }
 
   .footer-newsletter-box p {
@@ -365,9 +381,57 @@
     padding: 6rem 0rem 6rem 0rem;
     margin: 0 auto;
   }
+
+  /* MARGINS */
+  .best-artists h2 {
+    margin: 4rem 0 5rem;
+  }
+
+  .popular h2 {
+    padding: 4rem 0;
+  }
+
+  .see-all-artists {
+    padding: 5rem 0 5rem 0;
+  }
+
+  .footer-first-line {
+    padding: 2rem 0 2rem;
+  }
+
+  
+  .footer-newsletter-box {
+    padding-top: 0rem;
+  }
+  
+  .footer-newsletter-box p {
+    font-size: 2.4rem;
+    margin: 2rem 0 0 0;
+  }
+
+  .footer-last-line {
+    padding: 4rem 0rem;
+
+  }
+
+  .footer-map {
+    padding: 4rem 0rem 4rem 0rem;
+  }
 }
 
 @media (max-width: 39.75em) {
+  /* MOBILE NAV */
+  .navigation-link:link,
+  .navigation-link:visited {
+    font-size: 2.4rem;
+    padding-right: 6rem;
+  }
+
+  .mobile-fox-btn span {
+    font-size: 2.4rem;
+    padding-right: 6rem;
+  }
+
   .main {
     margin: -5rem 0 3rem;
   }
@@ -419,6 +483,122 @@
     font-size: 1.4rem;
     margin-top: 2rem;
   }
-}
 
-/* 436 NAV OFF
+  /* POPULAR */
+  .third-background {
+    padding: 0 5rem -1rem 2.5rem;
+  }
+  
+  .astronaut-container {
+    margin: 0 auto;
+  }
+
+  .popular-grid {
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  /* BEST ARTISTS */
+  .grid-3-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .artist-container {
+    width: 65%;
+  }
+
+  /* FOOTER */
+  .footer-map {
+    gap: 8rem;
+  }
+
+  .footer-last-line div a {
+    font-size: 1.8rem;
+  }
+
+  .social-media-container {
+    gap: 2rem;
+  }
+}
+ 
+@media (max-width: 30em) {
+  html {
+    font-size: 51.25%
+  }
+
+  /* GALLERY*/
+  .gallery-section {
+    gap: 1rem;
+    padding: 0 0 0 3rem;
+  }
+
+  .social-media-container {
+    gap: 1.5rem;
+  }
+
+  /* SECONDARY */
+  .testimonials-1 {
+    margin: 2rem 3rem 0rem;
+  }
+
+  .testimonials-2 {
+    margin: 0rem 3rem 0rem;
+  }
+
+  .lateral-column-num {
+    margin-bottom: 0rem;
+  }
+  
+  .lateral-column-text {
+    margin-top: 0rem;
+  }
+
+  /* POPULAR */
+  .third-background {
+    padding: 0 3rem -1rem 6rem;
+  }
+
+  .astronaut-container {
+    width: 90%;
+  }
+
+  /* BEST ARTISTS */
+  .artist-container {
+    width: 90%;
+  }
+
+  /* FOOTER */
+  input:first-child {
+    width: 65%;
+  }
+
+  }
+  .footer-map {
+    gap: 6rem;
+    padding: 4rem 0rem 4rem 0rem;
+  }
+
+  .social-media-container {
+    gap: 1rem;
+  }
+
+  .footer-last-line div a {
+    font-size: 1.6rem;
+  }
+
+  /* HEADING TEXTS */
+  .heading-text {
+    font-size: 2.8rem;  
+    margin: 2rem auto 0;
+   }
+
+   .popular h2 {
+     font-size: 3.2rem;
+     padding: 2.5rem 0;
+   }
+
+   .best-artists h2 {
+    font-size: 3.2rem;
+     padding: 0rem;
+   }
+}
